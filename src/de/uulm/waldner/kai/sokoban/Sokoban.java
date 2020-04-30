@@ -1,3 +1,8 @@
+/*@author Kai Waldner
+ *This game is like the game called Sokoban with a few differences:
+ * You win if you remove all "u" out of the game. To remove these you have to push "$" with you character "@" to this places.
+ */
+
 package de.uulm.waldner.kai.sokoban;
 
 import javax.swing.*;
