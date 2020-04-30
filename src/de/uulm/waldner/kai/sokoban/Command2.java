@@ -7,7 +7,7 @@ import static de.uulm.waldner.kai.sokoban.Sokoban.*;
 
 public class Command2 implements ActionListener {
     @Override
-    public void actionPerformed(ActionEvent actionEvent) {
+    public void actionPerformed(@org.jetbrains.annotations.NotNull ActionEvent actionEvent) {
         if(actionEvent.getActionCommand().equals("QUIT")){
             frame.dispose();
             System.exit(0);
